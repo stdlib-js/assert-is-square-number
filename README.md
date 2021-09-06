@@ -158,6 +158,25 @@ bool = isSquareNumber( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-cube-number`][@stdlib/assert/is-cube-number]: test if a value is a cube number.
+-   [`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]: test if a value is a number having an integer value.
+-   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: test if a value is a number.
+-   [`@stdlib/assert/is-triangular-number`][@stdlib/assert/is-triangular-number]: test if a value is a triangular number.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -212,6 +231,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-square-number/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-cube-number]: https://github.com/stdlib-js/assert-is-cube-number
+
+[@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert-is-integer
+
+[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert-is-number
+
+[@stdlib/assert/is-triangular-number]: https://github.com/stdlib-js/assert-is-triangular-number
+
+<!-- </related-links> -->
 
 </section>
 
