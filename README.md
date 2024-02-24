@@ -50,13 +50,13 @@ A **square number** is defined as an integer value which is the square of an int
 ## Usage
 
 ```javascript
-import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@deno/mod.js';
+import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@v0.2.1-deno/mod.js';
 ```
 
 #### isSquareNumber( value )
@@ -133,7 +133,7 @@ bool = isSquareNumber.isObject( new Number( 4.0 ) );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@deno/mod.js';
+import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@v0.2.1-deno/mod.js';
 
 var bool = isSquareNumber( 4.0 );
 // returns true
