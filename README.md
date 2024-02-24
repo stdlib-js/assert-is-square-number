@@ -50,13 +50,13 @@ A **square number** is defined as an integer value which is the square of an int
 ## Usage
 
 ```javascript
-import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@esm/index.mjs';
+import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@v0.2.1-esm/index.mjs';
 ```
 
 #### isSquareNumber( value )
@@ -138,7 +138,7 @@ bool = isSquareNumber.isObject( new Number( 4.0 ) );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@esm/index.mjs';
+import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@v0.2.1-esm/index.mjs';
 
 var bool = isSquareNumber( 4.0 );
 // returns true
