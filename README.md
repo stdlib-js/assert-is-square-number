@@ -50,13 +50,18 @@ A **square number** is defined as an integer value which is the square of an int
 ## Usage
 
 ```javascript
+import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-square-number/tags). For example,
+
+```javascript
 import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@v0.2.2-deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@deno/mod.js';
 ```
 
 #### isSquareNumber( value )
@@ -133,7 +138,7 @@ bool = isSquareNumber.isObject( new Number( 4.0 ) );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@v0.2.2-deno/mod.js';
+import isSquareNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-number@deno/mod.js';
 
 var bool = isSquareNumber( 4.0 );
 // returns true
